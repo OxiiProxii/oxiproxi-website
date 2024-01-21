@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basicstyle.css" />
+    <link rel="stylesheet" href="font.css" />
+    <title>CSS 101 - OxiProxi/Moore</title>
+</head>
+<body>
+    <div class="topnav">
+        <a id="logo" href="loginpage.html">CSS 101</a>
+        <a href="mainpage.html">Home</a>
+        <a class="active" href="cssbasics.html">The Basics of CSS</a>
+    <div class="dropdown">
+        <button class="dropbtn topnav">Performance Tasks</button>
+    <div class="content topnav">
+        <a href="science.html">Science</a>
+        <a href="math.html">Math</a>
+        <a href="clve.html">CLVE</a>
+        <a href="english.html">English</a>
+        <a href="filipino.html">Filipino</a>
+        <a href="ap.html">AP</a>
+        <a href="mapeh.html">MAPEH</a>
+    </div>
+    </div>  
+    </div>
+    <div class="actualtext">
+        <h2>What is CSS?</h2>
+        <p>CSS stands for "Cascading Style Sheets" and is used for styling a document written in a markup language such as HTML</p>
+        <h2>CSS Syntax</h2>
+        <img src="syntax.jpg" />
+        <h2>CSS Selectors</h2>
+        <p>In CSS, there are 4 types of selectors: Element, ID, Class and Universal</p>
+        <p>We use the element selector to select all of one element, The code below will make every paragraph element centered</p>
+        <img src="element.jpg" />
+        <p>We use the ID selector to select one specific element with that ID, You can only give one element the same ID, the code below will make the element with the ID "example" centered</p>
+        <img src="id.jpg" />
+        <p>We use the class selector to select a group of elements with that class, In contrast of ID, you can give multiple elements the same class, making it more useful. the code below will make any element with the class "example" centered</p>
+        <img src="class.jpg" />
+        <p>Lastly, we use the universal selector to select every single element in the file, the code below will make everything centered</p>
+        <img src="universal.jpg" />
+        <p>There are things you can do with these selectors, like combine them (combinators), do specifics (pseudo-class and pseudo-element), etc. But these are the main ones you'll need</p>
+        <h2>Useful CSS Properties</h2>
+        <p>Here are some CSS Properties that may be useful to you:</p>
+        <div class="properties">
+        <p>1. color: Sets the text color (e.g., #000000 for black, #ffffff for white, or color names like "red" or "blue")</p>
+        <p>2. font-family: Specifies the font to use (e.g., Arial, sans-serif, Times New Roman)</p>
+        <p>3. font-size: Sets the font size (e.g., 16px, 1em, large)</p>
+        <p>4. font-weight: Controls the font weight (e.g., normal, bold, lighter, bolder)</p>
+        <p>5. text-align: Aligns the text horizontally (e.g., left, center, right, justify)</p>
+        <p>6. text-decoration: Adds or removes text decorations (e.g., underline, overline, line-through)</p>
+        <p>7. margin: Sets the outer spacing around elements (e.g., margin: 10px 20px 30px 40px).</p>
+        <p>8. padding: Controls the inner spacing around content within elements (e.g., padding: 10px)</p>
+        <p>9. border: Defines the border around elements (e.g., border: 1px solid #000)</p>
+        <p>10. width: Sets the element's width (e.g., 300px, 50%, auto)</p>
+        <p>11. height: Sets the element's height (e.g., 200px, 100vh)</p>
+        <p>12. background-color: Sets the background color of an element</p>
+        <p>13. background-image: Sets an image as the background</p>
+        <p>14. background-repeat: Controls how the background image repeats (e.g., repeat, no-repeat, repeat-x, repeat-y)</p>
+        <p>15. position: Specifies the positioning method (e.g., static, relative, absolute, fixed)</p>
+        <p>16. top: Sets the top position of an element</p>
+        <p>17. display: Controls how elements are displayed (e.g., block, inline, inline-block, none)</p>
+        <p>18. opacity: Sets the transparency of an element (e.g., 0.5 for 50% transparency)</p>
+        </div>
+        <br>
+        <h2>CSS Box Model</h2>
+        <p>In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins. The image below illustrates the box model</p>
+        <img src="box-model.png" />
+        <p>Content: The thing you are trying to display itself</p>
+        <p>Padding: Space between the content and the border</p>
+        <p>Border: A border that goes around the padding and the content</p>
+        <p>Margin: Space between the border and other elements</p>
+        </div>
+</body>
+</html>
